@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express =require('express');
 const db=require('./db/connect');
-constcors=require('cors')
+const cors=require('cors')
 // import routes
 const employeeRoutes=require('./routes/employees.routes');
 
